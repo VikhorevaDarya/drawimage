@@ -1,0 +1,19 @@
+html,
+body,
+form,
+.root {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  background-color: #111;
+}
+
+.root {
+  display: flex;
+  flex-direction: column;
+}
+

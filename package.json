@@ -1,0 +1,60 @@
+{
+  "name": "VikhorevaDarya/drawimage",
+  "version": "2.0.1",
+  "scripts": {
+    "serve": "vue-cli-service serve --port=3000",
+    "build": "vue-cli-service build --target lib --name drawimage ./src/main.js",
+    "lint": "vue-cli-service lint"
+  },
+  "main": "./dist/drawimage.common.js",
+  "files": [
+    "dist/*",
+    "src/*",
+    "public/*",
+    "*.json",
+    "*.js"
+  ],
+  "dependencies": {
+    "core-js": "^3.8.3",
+    "less": "^4.1.2",
+    "less-loader": "^10.2.0",
+    "lightvue": "^1.4.9",
+    "vue": "^3.2.13",
+    "vue-accessible-color-picker": "^4.0.6",
+    "vue-drawing-canvas": "^1.0.11",
+    "vue-router": "^4.0.14",
+    "vuex": "^4.0.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.16",
+    "@babel/eslint-parser": "^7.12.16",
+    "@nuxtjs/vuetify": "^1.12.3",
+    "@vue/cli-plugin-babel": "~5.0.0",
+    "@vue/cli-plugin-eslint": "~5.0.0",
+    "@vue/cli-service": "~5.0.0",
+    "eslint": "^7.32.0",
+    "eslint-plugin-vue": "^8.0.3",
+    "hsl-to-hex": "^1.0.0",
+    "tui-image-editor": "^3.15.3"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/vue3-essential",
+      "eslint:recommended"
+    ],
+    "parserOptions": {
+      "parser": "@babel/eslint-parser"
+    },
+    "rules": {}
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead",
+    "not ie 11"
+  ]
+}
