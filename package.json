@@ -1,5 +1,5 @@
 {
-  "name": "VikhorevaDarya/drawimage",
+  "name": "@vikhorevadarya/drawimage",
   "version": "2.0.1",
   "scripts": {
     "serve": "vue-cli-service serve --port=3000",
@@ -56,5 +56,8 @@
     "last 2 versions",
     "not dead",
     "not ie 11"
-  ]
+  ],
+  "publishConfig": {
+    "@vikhorevadarya:registry": "https://npm.pkg.github.com"
+  }
 }
